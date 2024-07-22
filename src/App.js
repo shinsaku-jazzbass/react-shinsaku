@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+//名前付きでない場合下記の様に
+//import Article from "./component/Article";
+//名前付きインポート
+//import {Article,Counter, Fetch} from "./component";
+import FetchData from './FetchData';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Article
+      title={'タイトル　React Propsのテスト'}
+      content={'コンテンツ　React Propsを確認<br>aaaaaaaaaaaaa'}
+      /> */}
+      {/* <Counter /> */}
+      {/* <Fetch /> */}
+      <FetchData />
+    </>
   );
 }
 
